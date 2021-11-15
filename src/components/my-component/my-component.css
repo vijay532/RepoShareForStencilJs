@@ -327,20 +327,6 @@ textarea {
    * 1. Correct the odd appearance in Chrome and Safari.
    * 2. Correct the outline style in Safari.
    */
-[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  appearance: textfield;
-  outline-offset: -0.125rem;
-}
-
-/**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-  appearance: none;
-}
 
 /**
    * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -1072,7 +1058,8 @@ button:focus {
   padding:10px;
   background-color:#95DADA
 }
-.search{
-  width: "30%";
-  height: "25px"
+.searchbar{
+  width: 30%;
+  height: 25px;
+  align-items: center;
 }
